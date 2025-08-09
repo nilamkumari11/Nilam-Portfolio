@@ -1,13 +1,12 @@
 import React from "react";
 import Background from "./components/Background";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   return (
     <div>
       <Background />
-      <h1 style={{ color: "white", position: "relative", zIndex: 1 }}>
-        My React App
-      </h1>
+      <Navbar></Navbar>
     </div>
   );
 }
