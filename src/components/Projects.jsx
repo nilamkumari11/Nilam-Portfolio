@@ -5,10 +5,12 @@ import ToDo from '../assets/ToDo.jpg'
 import BlackHole from '../assets/BlackHole.png'
 import brick from '../assets/brickBreaker.png'
 import { Icons } from './Icons'
+import TransitionWithScale from './TransitionWithScale'
 
 export const Projects = ({id}) => {
    return (
-    <div className='mb-20'>
+    <TransitionWithScale>
+        <div className='mb-20'>
         <div id={id} className="text-center text-cyan-500 p-4 mb-2 font-mono">
                     <h2 className="text-4xl">My Projects</h2>
                     <div className="w-34 h-0.5 bg-cyan-500 mx-auto mt-4 mb-10 ">
@@ -62,6 +64,7 @@ export const Projects = ({id}) => {
             </div>
         </div>
     </div>
+    </TransitionWithScale>
    )
 }
 
