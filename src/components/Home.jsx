@@ -1,9 +1,22 @@
 import LetterTyped from "./LetterTyped"
 import { Socials } from "./Socials";
+import { useEffect, useState } from "react";
+import TransitionWithScale from "./TransitionWithScale";
 
-export const Home = () => {
+
+export const Home = ({ id }) => {
+    const [visible, setVisible] = useState(false);
+
+    useEffect(() => {
+        // Delay to trigger animation after mount
+        setTimeout(() => setVisible(true), 100);
+    }, []);
+
     return (
-        <div className="flex mb-100 md:mb-60">
+        <TransitionWithScale>
+            <div id={id} className={`flex mb-100 md:mb-60 transition-all duration-1000 ease-out ${
+                visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            }`}>
             <div><Socials></Socials></div>
             <div className="absolute z--1 top-30 left-20 sm:left-35 md:left-50 lg:left-60 h-110 w-100 md:w-150 lg:w-200 flex flex-col p-4">
                 <h2 className="m-1 p-1 text-gray-400 text-2xl">Hey, I'm</h2>
@@ -35,7 +48,7 @@ export const Home = () => {
                         <span className="font-mono">Hire me</span>
                     </a>
                     <a
-                                href="https://github.com/nilamkumari11"
+                                href="https://drive.google.com/file/d/1eEWX6_gJRzlIN3SBVg7nHbOl8YCKKQ05/view?usp=drive_link"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 px-4 py-2 bg-transparent border border-cyan-500 text-cyan-500 hover:bg-gray-800 rounded w-50 hover:scale-110 transition-transform duration-200 ease-in-out"
@@ -45,5 +58,6 @@ export const Home = () => {
                 </div>
             </div>
         </div>
+        </TransitionWithScale>
     )
 }
