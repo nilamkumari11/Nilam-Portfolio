@@ -63,18 +63,21 @@ export const Socials = () => {
   return (
     <div className="mt-65 left-0 z-50 flex flex-col items-center space-y-4 p-2 ">
       
-      {socialLinks.map(({ href, label, svg }, index) => (
-        <a
-          key={index}
-          href={href}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={`My ${label}`}
-          className="text-cyan-500 hover:text-blue-500 transition-colors duration-200"
-        >
-          {svg}
-        </a>
-      ))}
+      {socialLinks.map(({ href, label, svg }, index) => {
+          const isEmail = href.startsWith("mailto:");
+          return (
+            <a
+              key={index}
+              href={href}
+              {...(!isEmail && { target: "_blank", rel: "noopener noreferrer" })}
+              aria-label={`My ${label}`}
+              className="text-cyan-500 hover:text-blue-500 transition-colors duration-200"
+            >
+              {svg}
+            </a>
+          );
+      })}
+
       <hr className="w-0.5 h-16 bg-cyan-500" />
     </div>
   );
