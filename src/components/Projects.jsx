@@ -9,7 +9,7 @@ import TransitionWithScale from './TransitionWithScale'
 
 export const Projects = ({id}) => {
    return (
-    <TransitionWithScale>
+  
         <div className='mb-20'>
         <div id={id} className="text-center text-cyan-500 p-4 mb-2 font-mono">
                     <h2 className="text-4xl">My Projects</h2>
@@ -64,7 +64,7 @@ export const Projects = ({id}) => {
             </div>
         </div>
     </div>
-    </TransitionWithScale>
+   
    )
 }
 
