@@ -19,10 +19,10 @@ export const Navbar = () => {
             <div className="flex text-white text-md cursor-pointer p-4 gap-6">
                 <a href="#home" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-center hidden lg:flex ">Home</a>
                 <a href="#about"className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-center hidden lg:flex">About</a>
-                <a href=""className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-center hidden lg:flex">Skills</a>
-                <a href=""className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-center hidden lg:flex">Education</a>
-                <a href=""className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-center hidden lg:flex">Projects</a>
-                <a href=""className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-center hidden lg:flex">Contact</a>
+                <a href="#skills"className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-center hidden lg:flex">Skills</a>
+                <a href="#education"className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-center hidden lg:flex">Education</a>
+                <a href="#projects"className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-center hidden lg:flex">Projects</a>
+                <a href="#contact"className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-center hidden lg:flex">Contact</a>
                 <button className={`block cursor-pointer lg:hidden ${
                     isOpen ? "text-cyan-400" : "text-white"
                 }`} onClick={() =>{
@@ -37,10 +37,10 @@ export const Navbar = () => {
                 <div className="absolute top-full right-4 mt-2 w-40 sm:w-45 rounded-lg bg-gray-600/40 backdrop-blur-2xl shadow-lg flex flex-col text-white p-4 gap-4 ">
                 <a href="#home" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">Home</a>
                 <a href="#about" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">About</a>
-                <a href="#home" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">Skills</a>
-                <a href="#home" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">Education</a>
-                <a href="#home" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">Projects</a>
-                <a href="#home" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">Contact</a>
+                <a href="#skills" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">Skills</a>
+                <a href="#education" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">Education</a>
+                <a href="#projects" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">Projects</a>
+                <a href="#contact" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">Contact</a>
                 </div>
             )}
         </div>
