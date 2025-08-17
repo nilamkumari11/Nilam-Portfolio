@@ -1,6 +1,7 @@
 // Contact.jsx
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
+import TransitionUp from "./TransitionUp";
 
 export const Contact = ({id}) => {
   const form = useRef();
@@ -30,6 +31,8 @@ export const Contact = ({id}) => {
   };
 
   return (
+    <TransitionUp>
+        
     <div id={id} className="flex flex-col  justify-around items-center min-h-screen rounded-4xl m-20"> 
         <div className="">
             <h2 className="text-4xl font-bold text-center text-cyan-500">
@@ -83,6 +86,7 @@ export const Contact = ({id}) => {
             </div>
         </div>
     </div>
+    </TransitionUp>
   );
 };
 
