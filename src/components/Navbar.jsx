@@ -15,7 +15,7 @@ export const Navbar = () => {
 
     return(
         <div className="fixed z-10 top-0 left-0 w-full px-8 py-2 h-18 flex items-center justify-between border-b border-cyan-500 rounded-b-3xl shadow-cyan-700 shadow-md bg-gray-600/40 backdrop-blur-sm">
-            <h2 className="text-gray-400 text-4xl">{"<Nilam  Kumari />"}</h2>
+            <h2 className="text-gray-400 sm:text-4xl text-2xl">{"<Nilam  Kumari />"}</h2>
             <div className="flex text-white text-md cursor-pointer p-4 gap-6">
                 <a href="#home" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-center hidden lg:flex ">Home</a>
                 <a href="#about"className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-center hidden lg:flex">About</a>
