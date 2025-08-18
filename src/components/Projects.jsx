@@ -75,7 +75,7 @@ const Card = ({
     href
 }) => {
     return (
-        <div className='items-center w-97 h-150 bg-gray-700/40 backdrop-blur-sm border border-gray-600 rounded-xl md:hover:scale-101 hover:scale-105 hover:border-cyan-600 ml-2 lg:mb-0 mb-10'>
+        <div className='items-center w-97 h-150 bg-gray-700/40 backdrop-blur-sm border border-gray-600 rounded-xl hover:scale-101 hover:border-cyan-600 ml-2 lg:mb-0 mb-10'>
             <div className='rounded-lg overflow-hidden'>
                 <img src={photo} alt="project" className="w-[360px] h-50 m-3 rounded-lg"></img>
             </div>
