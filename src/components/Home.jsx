@@ -13,7 +13,6 @@ export const Home = ({ id }) => {
     }, []);
 
     return (
-        <TransitionWithScale>
             <div id={id} className={`flex mb-100 md:mb-60 transition-all duration-1000 ease-out ${
                 visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}>
@@ -58,6 +57,6 @@ export const Home = ({ id }) => {
                 </div>
             </div>
         </div>
-        </TransitionWithScale>
+
     )
 }
