@@ -53,7 +53,7 @@ export const Contact = ({id}) => {
         </div>
         <div className="flex items-center">
             
-                <div className="bg-gray-600/40 text-white shadow-md shadow-cyan-500 rounded-2xl p-8 border border-cyan-500 sm:max-w-lg w-full">
+                <div className="bg-gray-600/40 text-white shadow-md shadow-cyan-500 rounded-2xl p-8 border border-cyan-500 sm:max-w-lg w-40">
                 <form ref={form} onSubmit={sendEmail} className="space-y-4">
                 <input
                     type="text"
