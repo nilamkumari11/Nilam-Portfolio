@@ -10,7 +10,7 @@ export const About = ({id}) => {
                     <h2 className="text-4xl">About Me</h2>
                     
             </div>
-            <div className="hover:border-cyan-500 hover:shadow-cyan-500 shadow-lg w-100 sm:w-140 md:w-200 lg:w-250 lg:h-120 md:h-140 sm:h-190 h-220 m-23 ml-10 sm:ml-13 md:ml-15 lg:ml-32 flex flex-col bg-gray-600/10 border rounded-xl font-mono py-10 md:py-17 px-4 md:px-10 text-white mb-50">
+            <div className="hover:border-cyan-500 hover:shadow-cyan-500 shadow-lg w-100 sm:w-140 md:w-200 lg:w-250 lg:h-120 md:h-140 sm:h-190 h-220 m-23 ml-7 sm:ml-13 md:ml-15 lg:ml-32 flex flex-col bg-gray-600/10 border rounded-xl font-mono py-10 md:py-17 px-4 md:px-10 text-white mb-50">
                 <div className="flex flex-col md:flex-row items-center ">
                     <img 
                         src={ProfilePic} 
