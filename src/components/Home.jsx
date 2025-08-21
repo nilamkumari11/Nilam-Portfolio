@@ -17,7 +17,7 @@ export const Home = ({ id }) => {
                 visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}>
             <div><Socials></Socials></div>
-            <div className="absolute z--1 top-30 left-19 sm:left-35 md:left-50 lg:left-60 h-110 w-78 sm:w-100 md:w-150 lg:w-200 flex flex-col p-4">
+            <div className="absolute z--1 top-30 left-19 sm:left-35 md:left-50 lg:left-60 h-110 w-78 sm:w-100 md:w-150 lg:w-200 flex flex-col p-2 sm:p-4">
                 <h2 className="m-1 p-1 text-gray-400 text-2xl">Hey, I'm</h2>
                 <h2 className="m-1 p-1 text-cyan-500 text-3xl md:text-5xl">Nilam Kumari</h2>
                 <div className="designation m-1 p-1 text-cyan-500 text-xl md:text-3xl font-mono">
