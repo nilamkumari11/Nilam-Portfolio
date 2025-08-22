@@ -52,13 +52,13 @@ export const Projects = ({id}) => {
                 <Card 
                     photo = {brick}
                     title = "Brick Breaker Game"
-                    description= "A web-based interactive game built using JavaScript, HTML, and CSS. Players control a paddle to bounce a ball and break all bricks, featuring collision detection, score tracking, and smooth gameplay experience."
+                    description= "A web-based game built using JavaScript, HTML, and CSS. Players control a paddle to bounce a ball and break all bricks, featuring collision detection, score tracking, and smooth gameplay experience."
                     href = "https://github.com/nilamkumari11"
                 />  
                 <Card 
                     photo = {BlackHole}
-                    title = "BlackHole Number Calculator"
-                    description= "A fun, web-based calculator built with JavaScript, HTML, and CSS that converts numbers into words and counts their letters until reaching FOUR – the Black Hole number"
+                    title = "BlackHole Calculator"
+                    description= "A fun, web-based calculator built with JavaScript, HTML, and CSS that converts numbers into words and counts their letters until reaching FOUR – the Black Hole number."
                     href = "https://github.com/nilamkumari11/Black-hole-Calculator"
                 />
             </div>
