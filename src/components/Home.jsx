@@ -34,7 +34,7 @@ export const Home = ({ id }) => {
                         pause={1500} 
                     />
                 </div>
-                <div className=" p-2 ml-1 pl-1 text-gray-400 text-md sm:text-lg md:text-xl text-justify font-mono sm:w-100">
+                <div className=" p-2 ml-1 pl-1 sm:ml-4 text-gray-400 text-md sm:text-lg md:text-xl text-justify font-mono sm:w-200">
                     <p>
                         I’m a final year B.Tech student in Computer Science and Engineering with a strong passion for web development. I aspire to become a full-time web developer, with a particular interest in full-stack development. I enjoy creating simple, user-friendly applications and learning new technologies. I also have a keen interest in problem-solving and enjoy applying my coding skills to tackle real-world challenges.
                     </p>
