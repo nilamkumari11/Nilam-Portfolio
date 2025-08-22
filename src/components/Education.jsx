@@ -5,7 +5,7 @@ import TransitionWithScale from './TransitionWithScale';
 
 export const Education = ({id}) => {
     return (
-        <div id={id} className='mb-40'>
+        <div id={id} className='mb-40 px-6 sm:px-12 md:px-20'>
             <div className="flex flex-col text-cyan-500 items-center mt-50 mb-20 font-mono">
                 <h1 className="text-4xl mb-2">My Education</h1>
                 <h2 className="text-gray-400">A good Education is a foundation for a better Future</h2>
