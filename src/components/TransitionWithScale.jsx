@@ -21,7 +21,7 @@ export default function TransitionWithScale({ children }) {
     <div
       ref={ref}
       className={`transition-all duration-1000 transform ${
-        isVisible ? "opacity-100 scale-100" : "opacity-0 scale-75"
+        isVisible ? "opacity-100 scale-90" : "opacity-0 scale-75"
       }`}
     >
       {children}
