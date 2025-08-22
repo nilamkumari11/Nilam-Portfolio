@@ -5,7 +5,7 @@ import TransitionWithScale from './TransitionWithScale';
 
 export const Education = ({id}) => {
     return (
-        <div id={id} className='mb-40 px-6 sm:px-12 md:px-20'>
+        <div id={id} className='mb-40'>
             <div className="flex flex-col text-cyan-500 items-center mt-50 mb-20 font-mono">
                 <h1 className="text-4xl mb-2">My Education</h1>
                 <h2 className="text-gray-400">A good Education is a foundation for a better Future</h2>
@@ -52,7 +52,7 @@ const Card = (
     }
 ) => {
     return (
-        <div className="flex lg:flex-row flex-col lg:items-center lg:w-250 md:w-180 sm:w-150 w-110 lg:h-40 bg-gray-700/60 rounded-xl border border-white shadow-cyan-500 hover:shadow-md hover:border-cyan-500 mb-10 hover:scale-105 transition-transform ">
+        <div className="flex lg:flex-row flex-col lg:items-center lg:w-250 md:w-180 sm:w-150 w-90 lg:h-40 bg-gray-700/60 rounded-xl border border-white shadow-cyan-500 hover:shadow-md hover:border-cyan-500 mb-10 hover:scale-105 transition-transform ">
             <div>
                 <img src={photo} alt="School" className="lg:w-60 md:w-180 sm:w-150 w-110 h-40 rounded-l-lg"/>
             </div>
