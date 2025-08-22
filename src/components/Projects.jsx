@@ -58,7 +58,7 @@ export const Projects = ({id}) => {
                 <Card 
                     photo = {BlackHole}
                     title = "BlackHole Number Calculator"
-                    description= "A web based fun game-like calculator built with JavaScript, HTML, and CSS where the user can inputs any number, and by counting letters in the number written in words it transforms to FOUR — the Black Hole number in mathematics."
+                    description= "A fun, web-based calculator built with JavaScript, HTML, and CSS that converts numbers into words and counts their letters until reaching FOUR – the Black Hole number"
                     href = "https://github.com/nilamkumari11/Black-hole-Calculator"
                 />
             </div>
