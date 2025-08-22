@@ -1,6 +1,7 @@
 import AEC from '../assets/AEC.jpg';
 import DAV from '../assets/DAV.jpg';
 import TransitionUp from './TransitionUp';
+import TransitionWithScale from './TransitionWithScale';
 
 export const Education = ({id}) => {
     return (
@@ -11,30 +12,30 @@ export const Education = ({id}) => {
             </div>
             <div className=''>
                 <div className = "flex flex-col items-center">
-                    <TransitionUp>
+                    <TransitionWithScale>
                         <Card photo={AEC} 
                             title = "Bachelor of Technology in Computer Science"               
                             name="Asansol Engineering College"
                             year = "2022-2026"
                             status = "Pursuing"
                         ></Card>
-                    </TransitionUp>
-                    <TransitionUp>
+                    </TransitionWithScale>
+                    <TransitionWithScale>
                         <Card photo={DAV} 
                             title = "Senior School | Science | PCM "               
                             name="D.A.V. Public School"
                             year = "2022"
                             status = "Completed"
                         ></Card>
-                    </TransitionUp>
-                    <TransitionUp>
+                    </TransitionWithScale>
+                    <TransitionWithScale>
                         <Card photo={DAV} 
                             title = "Secondary School"               
                             name="D.A.V. Public School"
                             year = "2020"
                             status = "Completed"
                         ></Card>
-                    </TransitionUp>
+                    </TransitionWithScale>
                 </div>
             </div>
         </div>
