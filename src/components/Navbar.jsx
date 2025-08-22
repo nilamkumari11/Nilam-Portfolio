@@ -34,7 +34,7 @@ export const Navbar = () => {
             </div>
 
             {isOpen && (
-                <div className="absolute top-full right-4 mt-2 w-full rounded-lg bg-gray-600/40 backdrop-blur-2xl shadow-lg flex flex-col text-white p-4 gap-4 ">
+                <div className="fixed top-full left-0 mt-2 w-screen rounded-lg bg-gray-600/40 backdrop-blur-2xl shadow-lg flex flex-col text-white p-4 gap-4">
                 <a href="#home" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">Home</a>
                 <a href="#about" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">About</a>
                 <a href="#skills" className="hover:text-cyan-400 hover:scale-120 transition-transform duration-200 origin-left cursor-pointer">Skills</a>

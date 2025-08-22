@@ -13,13 +13,14 @@ export const Home = ({ id }) => {
     }, []);
 
     return (
-            <div id={id} className={`flex mb-100 md:mb-60 transition-all duration-1000 ease-out ${
-                visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-            }`}>
+            <div id={id} className={`flex mb-24 md:mb-16 transition-all duration-1000 ease-out overflow-x-hidden ${
+  visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+}`}>
+
             <div><Socials></Socials></div>
-            <div className="absolute z--1 top-30 left-19 sm:left-35 md:left-50 lg:left-60 h-110 w-78 sm:w-100 md:w-150 lg:w-200 flex flex-col p-4">
-                <h2 className="m- p-1 text-gray-400 text-2xl">Hey, I'm</h2>
-                <h2 className="m- p-1 text-cyan-500 text-3xl md:text-5xl">Nilam Kumari</h2>
+            <div className="relative z-0 top-0 left-0 max-w-full flex flex-col p-4 sm:p-6 md:p-8">
+                <h2 className=" p-1 text-gray-400 text-2xl">Hey, I'm</h2>
+                <h2 className=" p-1 text-cyan-500 text-3xl md:text-5xl">Nilam Kumari</h2>
                 <div className="designation m-1 p-1 text-cyan-500 text-xl md:text-3xl font-mono">
                     <LetterTyped
                         strings={[
@@ -33,7 +34,7 @@ export const Home = ({ id }) => {
                         pause={1500} 
                     />
                 </div>
-                <div className="m- p-2 ml-1 pl-1 text-gray-400 text-md sm:text-lg md:text-xl text-justify font-mono">
+                <div className=" p-2 ml-1 pl-1 text-gray-400 text-md sm:text-lg md:text-xl text-justify font-mono">
                     <p>
                         I’m a final year B.Tech student in Computer Science and Engineering with a strong passion for web development. I aspire to become a full-time web developer, with a particular interest in full-stack development. I enjoy creating simple, user-friendly applications and learning new technologies. I also have a keen interest in problem-solving and enjoy applying my coding skills to tackle real-world challenges.
                     </p>
