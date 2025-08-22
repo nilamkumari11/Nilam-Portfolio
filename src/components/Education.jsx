@@ -8,7 +8,7 @@ export const Education = ({id}) => {
         <div id={id} className='mb-40'>
             <div className="flex flex-col text-cyan-500 items-center mt-50 mb-20 font-mono">
                 <h1 className="text-4xl mb-2">My Education</h1>
-                <h2 className="text-gray-400 ml-2">A good Education is a foundation for a better Future</h2>
+                <h2 className="text-gray-400 ml-4">A good Education is a foundation for a better Future</h2>
             </div>
             <div className=''>
                 <div className = "flex flex-col items-center">
