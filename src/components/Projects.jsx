@@ -10,7 +10,7 @@ import TransitionWithScale from './TransitionWithScale'
 export const Projects = ({id}) => {
    return (
   
-        <div className='mb-20'>
+        <div className='mb-20  px-4 sm:px-6 md:px-10'>
         <div id={id} className="text-center text-cyan-500 p-4 mb-2 font-mono">
                     <h2 className="text-4xl">My Projects</h2>
                     <div className="w-34 h-0.5 bg-cyan-500 mx-auto mt-4 mb-10 ">
@@ -76,7 +76,7 @@ const Card = ({
 }) => {
     return (
         <div className='flex flex-col items-center w-full max-w-sm bg-gray-700/40 backdrop-blur-sm 
-    border border-gray-600 rounded-xl hover:scale-105 hover:border-cyan-600 
+    border border-gray-600 rounded-xl sm:hover:scale-104 hover:border-cyan-600 
     transition-transform duration-200 ease-in-out p-4 mx-auto lg:mb-0 mb-10'>
             <div className='rounded-lg overflow-hidden'>
                 <img src={photo} alt="project" className="w-full h-48 object-cover m-3 rounded-lg" />
