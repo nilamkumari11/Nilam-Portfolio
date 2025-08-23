@@ -48,7 +48,7 @@ export const Home = ({ id }) => {
                         <span className="font-mono">Hire me</span>
                     </a>
                     <a
-                                href="https://drive.google.com/file/d/1eEWX6_gJRzlIN3SBVg7nHbOl8YCKKQ05/view?usp=drive_link"
+                                href="https://drive.google.com/file/d/130CmpUobwRdBJcP2ZcKbmSII33CpDhkH/view?usp=drive_link"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="flex items-center gap-2 px-4 py-2 bg-transparent border border-cyan-500 text-cyan-500 hover:bg-gray-800 rounded w-50 hover:scale-110 transition-transform duration-200 ease-in-out"
