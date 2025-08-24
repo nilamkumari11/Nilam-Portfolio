@@ -3,7 +3,7 @@ import TransitionWithScale from "./TransitionWithScale"
 export const Footer = () => {
     return(
         <TransitionWithScale>
-            <div className="bg-gray-600/40 backdrop-blur-sm h-16 border border-t-cyan-600 ">
+            <div className="bg-gray-600/40 backdrop-blur-sm h-16 border border-t-cyan-600 w-full">
             <div className="flex gap-2 m-4.5 text-xl justify-center items-center">
                 <p className="text-gray-400">Made with</p> 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="red" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" class="size-6">
