@@ -8,7 +8,7 @@ export const Education = ({id}) => {
         <div id={id} className='mb-40'>
             <div className="flex flex-col text-cyan-500 items-center mt-50 mb-20 font-mono">
                 <h1 className="text-4xl mb-2">My Education</h1>
-                <h2 className="text-gray-400 ml-4">A good Education is a foundation for a better Future</h2>
+                <h2 className="text-gray-400 ml-4 justify-center">A good Education is a foundation for a better Future</h2>
             </div>
             <div className=''>
                 <div className = "flex flex-col items-center">
@@ -56,8 +56,8 @@ const Card = (
             <div>
                 <img src={photo} alt="School" className="lg:w-60 md:w-180 sm:w-150 w-110 h-40 rounded-l-lg"/>
             </div>
-            <div className='text-white px-7 lg:py-0 py-5'>
-                <h1 className='md:text-3xl sm:text-2xl text-xl font-bold py-2'>{title}</h1>
+            <div className='text-white px-7 lg:py-0 py-4'>
+                <h1 className='md:text-3xl sm:text-2xl text-xl font-bold pb-2 pt-1'>{title}</h1>
                 <div className='md:text-xl sm:text-lg text-md text-cyan-500'>{name}</div>
                 <div className='md:text-2xl sm:text-xl text-lg'>{year} | {status}</div>
             </div>
